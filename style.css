@@ -37,17 +37,26 @@ body {
 
 /* image adjustment */
 .img {
-  background-color: hsl(277, 64%, 61%);
+  position: relative;
+  /* background-color: hsl(277, 64%, 61%); */
   width: 310px;
   height: 200px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+.tint{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(277, 64%, 61%);
+  opacity: 0.5;
+}
 .image {
   background-image: url(./images/image-header-mobile.jpg);
   background-size: 310px, 200px;
   background-repeat: no-repeat;
-  opacity: 50%;
+  /* opacity: 50%; */
+  mix-blend-mode: multiply;
   width: 100%;
   height: 100%;
   border-top-right-radius: 10px;
