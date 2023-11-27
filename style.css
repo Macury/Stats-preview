@@ -44,7 +44,7 @@ body {
   border-top-left-radius: 10px;
 }
 .image {
-  background-image: url(/images/image-header-mobile.jpg);
+  background-image: url(./images/image-header-mobile.jpg);
   background-size: 310px, 200px;
   background-repeat: no-repeat;
   opacity: 50%;
@@ -126,7 +126,7 @@ h2 {
     border-radius: 0px 10px 10px 0px;
   }
   .image {
-    background-image: url(/images/image-header-desktop.jpg);
+    background-image: url(./images/image-header-desktop.jpg);
     background-size: 100% 100%;
     border-radius: inherit;
   }
